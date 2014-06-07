@@ -1,0 +1,14 @@
+
+# Qt Creator user data
+*.user
+
+# autosave
+*.autosave
+
+# backup file
+*~
+
+# Sublime Text
+*.sublime-workspace
+
+

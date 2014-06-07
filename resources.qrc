@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/mh">
+        <file>web/index.html</file>
+        <file>web/index.css</file>
+        <file>web/main.js</file>
+        <file>web/jquery-2.1.1.min.js</file>
+        <file>web/jquery.color-2.1.1.min.js</file>
+        <file>web/digital-7.ttf</file>
+    </qresource>
+</RCC>
