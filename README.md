@@ -1,6 +1,8 @@
 MagicHand
 =========
 
+![](https://dl.dropboxusercontent.com/u/37804131/github/MagicHand.gif)
+
 MagicHand is a software that lets you control your computer using your smartphone or tablet, 
 just by connecting them to the same network, and accessing the displayed URL.
 
