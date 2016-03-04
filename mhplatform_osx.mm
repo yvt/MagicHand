@@ -31,14 +31,14 @@ namespace MHPlatform {
         CGEventRef e = CGEventCreateMouseEvent(nullptr,
                                     kCGEventMouseMoved,
                                     lastPoint,
-                                    0);
+                                    kCGMouseButtonLeft);
         CGEventPost(kCGHIDEventTap, e);
         CFRelease(e);
         if (lButtonDown) {
             e = CGEventCreateMouseEvent(nullptr,
                                         kCGEventLeftMouseDragged,
                                         lastPoint,
-                                        0);
+                                        kCGMouseButtonLeft);
             CGEventPost(kCGHIDEventTap, e);
             CFRelease(e);
         }
@@ -46,7 +46,7 @@ namespace MHPlatform {
             e = CGEventCreateMouseEvent(nullptr,
                                         kCGEventRightMouseDragged,
                                         lastPoint,
-                                        0);
+                                        kCGMouseButtonLeft);
             CGEventPost(kCGHIDEventTap, e);
             CFRelease(e);
         }
